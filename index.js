@@ -138,9 +138,7 @@ function hungryDog(weight, age){
       else if (age >= (7 / 12)) {
         numPounds = weight * .04;
       }
-      else {
-        console.log("Mom still feeds the puppy herself.")
-      }
+      else console.log("Mom still feeds the puppy herself.");
     }
     return numPounds;
   }
