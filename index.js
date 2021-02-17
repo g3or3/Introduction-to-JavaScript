@@ -19,7 +19,7 @@ Do the following:
 */
 
 let votingAge = 18;
-console.log(votingAge >= 18)
+console.log(votingAge >= 18);
 
 /*
 Task 1b - Values
@@ -34,9 +34,7 @@ Do the following:
 
 let value1 = 5;
 let value2 = 10;
-if (value1 < value2) {
-  value1 = value2;
-}
+if (value1 < value2) value1 = value2;
 console.log(value1);
 
 /*
@@ -124,7 +122,7 @@ function hungryDog(weight, age){
       if (age >= (2 / 12) && age <= (4 / 12)) numPounds = weight * .10;
       else if (age >= (4 / 12) && age <= (7 / 12)) numPounds = weight * .05;
       else if (age >= (7 / 12)) numPounds = weight * .04;
-      else console.log("Mom still feeds the puppy herself.")
+      else console.log("Mom still feeds the puppy herself.");
     }
     return numPounds;
   }
@@ -153,11 +151,11 @@ Use the game function below to do the following:
 
 
 function game(user, computer){
-    if (user === computer) return "it's a tie"
+    if (user === computer) return "it's a tie";
     if (user === 'scissors' && computer === 'rock') return "you lose!";
     if (user === 'rock' && computer === 'paper') return "you lose!";
-    if (user === 'paper' && computer === 'scissors') return "you lose!"
-    else return "you win!"
+    if (user === 'paper' && computer === 'scissors') return "you lose!";
+    else return "you win!";
 }
 
 
@@ -205,7 +203,7 @@ Using the annoyingSong function below do the following:
 
 function annoyingSong(number){
     if (number == 0) return;
-    annoyingSong(number - 1)
+    annoyingSong(number - 1);
     return `${number} bottles of soda on the wall, ${number} bottles of soda, take one down pass it around ${number - 1} bottles of soda on the wall`;
 }
 
@@ -226,11 +224,11 @@ Using the grade function below do the following:
 */
 
 function grade(score){
-    if (score >= 90 && score <= 100) return "you got an A"
-    if (score >= 80 && score <= 89) return "you got a B"
-    if (score >= 70 && score <= 79) return "you got a C"
-    if (score >= 60 && score <= 69) return "you got a D"
-    else return "you got an F"
+    if (score >= 90 && score <= 100) return "you got an A";
+    if (score >= 80 && score <= 89) return "you got a B";
+    if (score >= 70 && score <= 79) return "you got a C";
+    if (score >= 60 && score <= 69) return "you got a D";
+    else return "you got an F";
 }
 
 
