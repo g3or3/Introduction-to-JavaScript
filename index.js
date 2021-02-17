@@ -121,10 +121,23 @@ function hungryDog(weight, age){
       else numPounds = weight * .02;
     }
     else {
+<<<<<<< HEAD
       if (age >= (2 / 12) && age <= (4 / 12)) numPounds = weight * .10;
       else if (age >= (4 / 12) && age <= (7 / 12)) numPounds = weight * .05;
       else if (age >= (7 / 12)) numPounds = weight * .04;
       else console.log("Mom still feeds the puppy herself.")
+=======
+      if (age >= (2 / 12) && age <= (4 / 12)) {
+        numPounds = weight * .10;
+      }
+      else if (age >= (4 / 12) && age <= (7 / 12)) {
+        numPounds = weight * .05;
+      }
+      else if (age >= (7 / 12)) {
+        numPounds = weight * .04;
+      }
+      else console.log("Mom still feeds the puppy herself.");
+>>>>>>> b9ac6bfa65d1a70f7a182f106c335be60e6d1155
     }
     return numPounds;
   }
